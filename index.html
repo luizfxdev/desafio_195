@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enigma do Loop Temporal RPG</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enigma do Loop Temporal</h1>
+      <p class="subtitle">🧙‍♂️ Quebre o feitiço calculando a soma dos números primos!</p>
+
+      <div class="input-group">
+        <label for="inputNumber">Tempo decorrido (p):</label>
+        <input type="number" id="inputNumber" min="1" max="100" placeholder="Digite um número entre 1 e 100" />
+      </div>
+
+      <div class="button-group">
+        <button class="glow-on-hover" id="solveBtn" type="button">DESVENDAR</button>
+        <button class="glow-on-hover" id="resetBtn" type="button">RETORNAR</button>
+      </div>
+
+      <div class="result-container">
+        <h2>Resultado:</h2>
+        <div id="resultOutput"></div>
+        <div id="calculationOutput"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
